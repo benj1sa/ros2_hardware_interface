@@ -1,0 +1,7 @@
+<library path="rmd_motor_hardware">
+  <class name="rmd_motor_hardware/RmdMotorHardwareInterface"
+         type="rmd_motor_hardware::RmdMotorHardwareInterface"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>RMD Motor Hardware Interface</description>
+  </class>
+</library>

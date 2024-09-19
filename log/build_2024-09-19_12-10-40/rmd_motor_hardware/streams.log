@@ -1,0 +1,35 @@
+[0.006s] Invoking command in '/home/ubuntu/ros2_ws4/build/rmd_motor_hardware': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws4/rmd_motor_hardware -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws4/install/rmd_motor_hardware
+[0.154s] -- The C compiler identification is GNU 11.4.0
+[0.220s] -- The CXX compiler identification is GNU 11.4.0
+[0.227s] -- Detecting C compiler ABI info
+[0.265s] -- Detecting C compiler ABI info - done
+[0.269s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.269s] -- Detecting C compile features
+[0.270s] -- Detecting C compile features - done
+[0.272s] -- Detecting CXX compiler ABI info
+[0.306s] -- Detecting CXX compiler ABI info - done
+[0.309s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.309s] -- Detecting CXX compile features
+[0.310s] -- Detecting CXX compile features - done
+[0.317s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.384s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.443s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.443s]   By not providing "Findhardware_interface.cmake" in CMAKE_MODULE_PATH this
+[0.443s]   project has asked CMake to find a package configuration file provided by
+[0.443s]   "hardware_interface", but CMake did not find one.
+[0.443s] 
+[0.443s]   Could not find a package configuration file provided by
+[0.443s]   "hardware_interface" with any of the following names:
+[0.443s] 
+[0.443s]     hardware_interfaceConfig.cmake
+[0.443s]     hardware_interface-config.cmake
+[0.443s] 
+[0.443s]   Add the installation prefix of "hardware_interface" to CMAKE_PREFIX_PATH or
+[0.443s]   set "hardware_interface_DIR" to a directory containing one of the above
+[0.443s]   files.  If "hardware_interface" provides a separate development package or
+[0.443s]   SDK, be sure it has been installed.
+[0.443s] 
+[0.443s] [0m
+[0.443s] -- Configuring incomplete, errors occurred!
+[0.443s] See also "/home/ubuntu/ros2_ws4/build/rmd_motor_hardware/CMakeFiles/CMakeOutput.log".
+[0.445s] Invoked command in '/home/ubuntu/ros2_ws4/build/rmd_motor_hardware' returned '1': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws4/rmd_motor_hardware -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws4/install/rmd_motor_hardware

@@ -1,0 +1,8 @@
+In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kvisibility_control.h: No such file or directory
+    6 | #include [01;31m[K"visibility_control.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rmd_motor_hardware.dir/build.make:76: CMakeFiles/rmd_motor_hardware.dir/src/rmd_motor_hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rmd_motor_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

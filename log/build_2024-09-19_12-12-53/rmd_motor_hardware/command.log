@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/ros2_ws4/build/rmd_motor_hardware': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws4/rmd_motor_hardware -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws4/install/rmd_motor_hardware
+Invoked command in '/home/ubuntu/ros2_ws4/build/rmd_motor_hardware' returned '1': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws4/rmd_motor_hardware -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws4/install/rmd_motor_hardware

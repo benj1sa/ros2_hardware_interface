@@ -1,0 +1,46 @@
+[0.005s] Invoking command in '/home/ubuntu/ros2_ws4/build/rmd_motor_hardware': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws4/rmd_motor_hardware -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws4/install/rmd_motor_hardware
+[0.037s] -- The C compiler identification is GNU 11.4.0
+[0.072s] -- The CXX compiler identification is GNU 11.4.0
+[0.075s] -- Detecting C compiler ABI info
+[0.104s] -- Detecting C compiler ABI info - done
+[0.107s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.107s] -- Detecting C compile features
+[0.108s] -- Detecting C compile features - done
+[0.109s] -- Detecting CXX compiler ABI info
+[0.146s] -- Detecting CXX compiler ABI info - done
+[0.149s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.149s] -- Detecting CXX compile features
+[0.150s] -- Detecting CXX compile features - done
+[0.151s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.212s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.248s] -- Found hardware_interface: 2.43.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.277s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.281s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.287s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.307s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.452s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.455s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.481s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.502s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.504s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.512s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.513s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.517s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.521s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.528s] -- Looking for pthread.h
+[0.571s] -- Looking for pthread.h - found
+[0.571s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.603s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.604s] -- Found Threads: TRUE  
+[0.640s] [31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):
+[0.640s]   Given plugin description file
+[0.640s]   '/home/ubuntu/ros2_ws4/rmd_motor_hardware/rmd_motor_hardware.xml' does not
+[0.640s]   exist
+[0.640s] Call Stack (most recent call first):
+[0.640s]   CMakeLists.txt:26 (pluginlib_export_plugin_description_file)
+[0.640s] 
+[0.640s] [0m
+[0.640s] -- Configuring incomplete, errors occurred!
+[0.640s] See also "/home/ubuntu/ros2_ws4/build/rmd_motor_hardware/CMakeFiles/CMakeOutput.log".
+[0.644s] Invoked command in '/home/ubuntu/ros2_ws4/build/rmd_motor_hardware' returned '1': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws4/rmd_motor_hardware -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws4/install/rmd_motor_hardware

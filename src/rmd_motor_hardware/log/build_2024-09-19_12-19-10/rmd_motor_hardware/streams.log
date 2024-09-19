@@ -1,0 +1,202 @@
+[0.006s] Invoking command in '/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/build/rmd_motor_hardware': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws4/src/rmd_motor_hardware -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/install/rmd_motor_hardware
+[0.032s] -- The C compiler identification is GNU 11.4.0
+[0.056s] -- The CXX compiler identification is GNU 11.4.0
+[0.059s] -- Detecting C compiler ABI info
+[0.087s] -- Detecting C compiler ABI info - done
+[0.090s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.091s] -- Detecting C compile features
+[0.091s] -- Detecting C compile features - done
+[0.092s] -- Detecting CXX compiler ABI info
+[0.124s] -- Detecting CXX compiler ABI info - done
+[0.128s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.128s] -- Detecting CXX compile features
+[0.128s] -- Detecting CXX compile features - done
+[0.130s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.193s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.229s] -- Found hardware_interface: 2.43.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.245s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.247s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.250s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.255s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.354s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.355s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.366s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.380s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.381s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.388s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.389s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.392s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.396s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.400s] -- Looking for pthread.h
+[0.429s] -- Looking for pthread.h - found
+[0.429s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.460s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.461s] -- Found Threads: TRUE  
+[0.491s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.527s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.528s] -- Configured cppcheck include dirs: /home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include
+[0.528s] -- Configured cppcheck exclude dirs and/or files: 
+[0.528s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.529s] -- Added test 'lint_cmake' to check CMake code style
+[0.530s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.533s] -- Added test 'uncrustify' to check C / C++ code style
+[0.533s] -- Configured uncrustify additional arguments: 
+[0.534s] -- Added test 'xmllint' to check XML markup files
+[0.534s] -- Configuring done
+[0.550s] -- Generating done
+[0.552s] -- Build files have been written to: /home/ubuntu/ros2_ws4/src/rmd_motor_hardware/build/rmd_motor_hardware
+[0.557s] Invoked command in '/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/build/rmd_motor_hardware' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws4/src/rmd_motor_hardware -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/install/rmd_motor_hardware
+[0.558s] Invoking command in '/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/build/rmd_motor_hardware': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws4/src/rmd_motor_hardware/build/rmd_motor_hardware -- -j5 -l5
+[0.578s] [ 50%] [32mBuilding CXX object CMakeFiles/rmd_motor_hardware.dir/src/rmd_motor_hardware_interface.cpp.o[0m
+[0.823s] In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[0.823s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:11:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KRCLCPP_SHARED_PTR_DEFINITIONS[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[0.823s]    11 |   [01;31m[KRCLCPP_SHARED_PTR_DEFINITIONS[m[K(RmdMotorHardwareInterface)
+[0.823s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.823s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:11:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[0.823s]    11 |   RCLCPP_SHARED_PTR_DEFINITIONS(RmdMotorHardwareInterface[01;31m[K)[m[K
+[0.823s]       |                                                          [01;31m[K^[m[K
+[0.823s]       |                                                           [32m[K;[m[K
+[0.823s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:14:35:[m[K [01;31m[Kerror: [m[Kconflicting return type specified for ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_init(const hardware_interface::HardwareInfo&)[m[K’
+[0.823s]    14 |   hardware_interface::return_type [01;31m[Kon_init[m[K(const hardware_interface::HardwareInfo& info) override;
+[0.823s]       |                                   [01;31m[K^~~~~~~[m[K
+[0.823s] In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:4[m[K,
+[0.823s]                  from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[0.823s] [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:98:26:[m[K [01;36m[Knote: [m[Koverridden function is ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::SystemInterface::on_init(const hardware_interface::HardwareInfo&)[m[K’
+[0.823s]    98 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info)
+[0.823s]       |                          [01;36m[K^~~~~~~[m[K
+[0.823s] In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[0.823s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:15:35:[m[K [01;31m[Kerror: [m[Kconflicting return type specified for ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_configure(const rclcpp_lifecycle::State&)[m[K’
+[0.824s]    15 |   hardware_interface::return_type [01;31m[Kon_configure[m[K(const rclcpp_lifecycle::State& previous_state) override;
+[0.824s]       |                                   [01;31m[K^~~~~~~~~~~~[m[K
+[0.824s] In file included from [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:29[m[K,
+[0.824s]                  from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:4[m[K,
+[0.824s]                  from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[0.824s] [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:62:3:[m[K [01;36m[Knote: [m[Koverridden function is ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::on_configure(const rclcpp_lifecycle::State&)[m[K’
+[0.824s]    62 |   [01;36m[Kon_configure[m[K(const State & previous_state);
+[0.824s]       |   [01;36m[K^~~~~~~~~~~~[m[K
+[0.824s] In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[0.824s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:16:35:[m[K [01;31m[Kerror: [m[Kconflicting return type specified for ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’
+[0.824s]    16 |   hardware_interface::return_type [01;31m[Kon_activate[m[K(const rclcpp_lifecycle::State& previous_state) override;
+[0.824s]       |                                   [01;31m[K^~~~~~~~~~~[m[K
+[0.824s] In file included from [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:29[m[K,
+[0.824s]                  from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:4[m[K,
+[0.824s]                  from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[0.824s] [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:86:3:[m[K [01;36m[Knote: [m[Koverridden function is ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’
+[0.824s]    86 |   [01;36m[Kon_activate[m[K(const State & previous_state);
+[0.824s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[0.824s] In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[0.824s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:17:35:[m[K [01;31m[Kerror: [m[Kconflicting return type specified for ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’
+[0.824s]    17 |   hardware_interface::return_type [01;31m[Kon_deactivate[m[K(const rclcpp_lifecycle::State& previous_state) override;
+[0.824s]       |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[0.824s] In file included from [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:29[m[K,
+[0.824s]                  from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:4[m[K,
+[0.825s]                  from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[0.825s] [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:94:3:[m[K [01;36m[Knote: [m[Koverridden function is ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’
+[0.825s]    94 |   [01;36m[Kon_deactivate[m[K(const State & previous_state);
+[0.825s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[0.825s] In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[0.825s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:18:35:[m[K [01;31m[Kerror: [m[Kconflicting return type specified for ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_cleanup(const rclcpp_lifecycle::State&)[m[K’
+[0.825s]    18 |   hardware_interface::return_type [01;31m[Kon_cleanup[m[K(const rclcpp_lifecycle::State& previous_state) override;
+[0.825s]       |                                   [01;31m[K^~~~~~~~~~[m[K
+[0.825s] In file included from [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:29[m[K,
+[0.825s]                  from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:4[m[K,
+[0.825s]                  from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[0.825s] [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:70:3:[m[K [01;36m[Knote: [m[Koverridden function is ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::on_cleanup(const rclcpp_lifecycle::State&)[m[K’
+[0.825s]    70 |   [01;36m[Kon_cleanup[m[K(const State & previous_state);
+[0.825s]       |   [01;36m[K^~~~~~~~~~[m[K
+[0.825s] In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[0.825s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:19:35:[m[K [01;31m[Kerror: [m[Kconflicting return type specified for ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_shutdown(const rclcpp_lifecycle::State&)[m[K’
+[0.825s]    19 |   hardware_interface::return_type [01;31m[Kon_shutdown[m[K(const rclcpp_lifecycle::State& previous_state) override;
+[0.825s]       |                                   [01;31m[K^~~~~~~~~~~[m[K
+[0.825s] In file included from [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:29[m[K,
+[0.825s]                  from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:4[m[K,
+[0.825s]                  from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[0.825s] [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:78:3:[m[K [01;36m[Knote: [m[Koverridden function is ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::on_shutdown(const rclcpp_lifecycle::State&)[m[K’
+[0.825s]    78 |   [01;36m[Kon_shutdown[m[K(const State & previous_state);
+[0.825s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[0.825s] In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[0.825s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:20:35:[m[K [01;31m[Kerror: [m[Kconflicting return type specified for ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_error(const rclcpp_lifecycle::State&)[m[K’
+[0.825s]    20 |   hardware_interface::return_type [01;31m[Kon_error[m[K(const rclcpp_lifecycle::State& previous_state) override;
+[0.825s]       |                                   [01;31m[K^~~~~~~~[m[K
+[0.826s] In file included from [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:29[m[K,
+[0.826s]                  from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:4[m[K,
+[0.826s]                  from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[0.826s] [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:102:3:[m[K [01;36m[Knote: [m[Koverridden function is ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::on_error(const rclcpp_lifecycle::State&)[m[K’
+[0.826s]   102 |   [01;36m[Kon_error[m[K(const State & previous_state);
+[0.826s]       |   [01;36m[K^~~~~~~~[m[K
+[0.826s] In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[0.826s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:27:35:[m[K [01;31m[Kerror: [m[K‘[01m[Khardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::read()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[0.826s]    27 |   hardware_interface::return_type [01;31m[Kread[m[K() override;
+[0.826s]       |                                   [01;31m[K^~~~[m[K
+[0.826s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:28:35:[m[K [01;31m[Kerror: [m[K‘[01m[Khardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::write()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[0.826s]    28 |   hardware_interface::return_type [01;31m[Kwrite[m[K() override;
+[0.826s]       |                                   [01;31m[K^~~~~[m[K
+[0.844s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[0.844s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:8:58:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator!=[m[K’ (operand types are ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn[m[K’ and ‘[01m[Khardware_interface::return_type[m[K’)
+[0.844s]     8 |   if ([32m[Khardware_interface::SystemInterface::on_init(info)[m[K [01;31m[K!=[m[K [34m[Khardware_interface::return_type::OK[m[K) {
+[0.844s]       |       [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.844s]       |                                                   [32m[K|[m[K                                          [34m[K|[m[K
+[0.844s]       |                                                   [32m[K|[m[K                                          [34m[Khardware_interface::return_type[m[K
+[0.844s]       |                                                   [32m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn[m[K
+[0.844s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:8:58:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Koperator!=(hardware_interface::return_type, hardware_interface::return_type)[m[K’ (built-in)
+[0.844s]     8 |   if ([01;36m[Khardware_interface::SystemInterface::on_init(info) != hardware_interface::return_type::OK[m[K) {
+[0.844s]       |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.844s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:8:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn[m[K’ to ‘[01m[Khardware_interface::return_type[m[K’
+[0.844s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:8:58:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Koperator!=(rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn, rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn)[m[K’ (built-in)
+[0.844s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:8:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Khardware_interface::return_type[m[K’ to ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn[m[K’
+[0.844s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[0.844s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:15:104:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.844s]    15 | return_type RmdMotorHardwareInterface::on_configure([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+[0.844s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.844s] 
+[0.844s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[0.844s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:20:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.844s]    20 | :return_type RmdMotorHardwareInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+[0.844s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.845s] 
+[0.845s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[0.845s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:25:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.845s]    25 | eturn_type RmdMotorHardwareInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+[0.845s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.845s] 
+[0.845s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[0.845s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:30:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.845s]    30 | ::return_type RmdMotorHardwareInterface::on_cleanup([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+[0.845s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.845s] 
+[0.845s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_shutdown(const rclcpp_lifecycle::State&)[m[K’:
+[0.845s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:35:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.845s]    35 | :return_type RmdMotorHardwareInterface::on_shutdown([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+[0.845s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.845s] 
+[0.845s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_error(const rclcpp_lifecycle::State&)[m[K’:
+[0.845s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:40:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.845s]    40 | ce::return_type RmdMotorHardwareInterface::on_error([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+[0.845s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[0.845s] 
+[0.908s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[0.908s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[0.908s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[0.908s]                  from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:2[m[K:
+[0.908s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = rmd_motor_hardware::RmdMotorHardwareInterface; B = hardware_interface::SystemInterface][m[K’:
+[0.908s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[0.908s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Krmd_motor_hardware::RmdMotorHardwareInterface[m[K’
+[0.908s]   218 |     return [01;31m[Knew C[m[K;
+[0.908s]       |            [01;31m[K^~~~~[m[K
+[0.908s] In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[0.909s] [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:9:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Krmd_motor_hardware::RmdMotorHardwareInterface[m[K’:
+[0.909s]     9 | class [01;36m[KRmdMotorHardwareInterface[m[K : public hardware_interface::SystemInterface {
+[0.909s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.909s] In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:4[m[K,
+[0.909s]                  from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[0.909s] [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:175:23:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[0.909s]   175 |   virtual return_type [01;36m[Kread[m[K(const rclcpp::Time & time, const rclcpp::Duration & period) = 0;
+[0.909s]       |                       [01;36m[K^~~~[m[K
+[0.909s] [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:186:23:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[0.909s]   186 |   virtual return_type [01;36m[Kwrite[m[K(const rclcpp::Time & time, const rclcpp::Duration & period) = 0;
+[0.909s]       |                       [01;36m[K^~~~~[m[K
+[0.920s] gmake[2]: *** [CMakeFiles/rmd_motor_hardware.dir/build.make:76: CMakeFiles/rmd_motor_hardware.dir/src/rmd_motor_hardware_interface.cpp.o] Error 1
+[0.920s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rmd_motor_hardware.dir/all] Error 2
+[0.920s] gmake: *** [Makefile:146: all] Error 2
+[0.922s] Invoked command in '/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/build/rmd_motor_hardware' returned '2': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws4/src/rmd_motor_hardware/build/rmd_motor_hardware -- -j5 -l5

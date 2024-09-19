@@ -1,0 +1,150 @@
+In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:11:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KRCLCPP_SHARED_PTR_DEFINITIONS[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   11 |   [01;31m[KRCLCPP_SHARED_PTR_DEFINITIONS[m[K(RmdMotorHardwareInterface)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:11:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   11 |   RCLCPP_SHARED_PTR_DEFINITIONS(RmdMotorHardwareInterface[01;31m[K)[m[K
+      |                                                          [01;31m[K^[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:14:35:[m[K [01;31m[Kerror: [m[Kconflicting return type specified for ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_init(const hardware_interface::HardwareInfo&)[m[K’
+   14 |   hardware_interface::return_type [01;31m[Kon_init[m[K(const hardware_interface::HardwareInfo& info) override;
+      |                                   [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:4[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:98:26:[m[K [01;36m[Knote: [m[Koverridden function is ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::SystemInterface::on_init(const hardware_interface::HardwareInfo&)[m[K’
+   98 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info)
+      |                          [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:15:35:[m[K [01;31m[Kerror: [m[Kconflicting return type specified for ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_configure(const rclcpp_lifecycle::State&)[m[K’
+   15 |   hardware_interface::return_type [01;31m[Kon_configure[m[K(const rclcpp_lifecycle::State& previous_state) override;
+      |                                   [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:29[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:4[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:62:3:[m[K [01;36m[Knote: [m[Koverridden function is ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::on_configure(const rclcpp_lifecycle::State&)[m[K’
+   62 |   [01;36m[Kon_configure[m[K(const State & previous_state);
+      |   [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:16:35:[m[K [01;31m[Kerror: [m[Kconflicting return type specified for ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’
+   16 |   hardware_interface::return_type [01;31m[Kon_activate[m[K(const rclcpp_lifecycle::State& previous_state) override;
+      |                                   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:29[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:4[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:86:3:[m[K [01;36m[Knote: [m[Koverridden function is ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’
+   86 |   [01;36m[Kon_activate[m[K(const State & previous_state);
+      |   [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:17:35:[m[K [01;31m[Kerror: [m[Kconflicting return type specified for ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’
+   17 |   hardware_interface::return_type [01;31m[Kon_deactivate[m[K(const rclcpp_lifecycle::State& previous_state) override;
+      |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:29[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:4[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:94:3:[m[K [01;36m[Knote: [m[Koverridden function is ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’
+   94 |   [01;36m[Kon_deactivate[m[K(const State & previous_state);
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:18:35:[m[K [01;31m[Kerror: [m[Kconflicting return type specified for ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_cleanup(const rclcpp_lifecycle::State&)[m[K’
+   18 |   hardware_interface::return_type [01;31m[Kon_cleanup[m[K(const rclcpp_lifecycle::State& previous_state) override;
+      |                                   [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:29[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:4[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:70:3:[m[K [01;36m[Knote: [m[Koverridden function is ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::on_cleanup(const rclcpp_lifecycle::State&)[m[K’
+   70 |   [01;36m[Kon_cleanup[m[K(const State & previous_state);
+      |   [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:19:35:[m[K [01;31m[Kerror: [m[Kconflicting return type specified for ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_shutdown(const rclcpp_lifecycle::State&)[m[K’
+   19 |   hardware_interface::return_type [01;31m[Kon_shutdown[m[K(const rclcpp_lifecycle::State& previous_state) override;
+      |                                   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:29[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:4[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:78:3:[m[K [01;36m[Knote: [m[Koverridden function is ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::on_shutdown(const rclcpp_lifecycle::State&)[m[K’
+   78 |   [01;36m[Kon_shutdown[m[K(const State & previous_state);
+      |   [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:20:35:[m[K [01;31m[Kerror: [m[Kconflicting return type specified for ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_error(const rclcpp_lifecycle::State&)[m[K’
+   20 |   hardware_interface::return_type [01;31m[Kon_error[m[K(const rclcpp_lifecycle::State& previous_state) override;
+      |                                   [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:29[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:4[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:102:3:[m[K [01;36m[Knote: [m[Koverridden function is ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::on_error(const rclcpp_lifecycle::State&)[m[K’
+  102 |   [01;36m[Kon_error[m[K(const State & previous_state);
+      |   [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:27:35:[m[K [01;31m[Kerror: [m[K‘[01m[Khardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::read()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   27 |   hardware_interface::return_type [01;31m[Kread[m[K() override;
+      |                                   [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:28:35:[m[K [01;31m[Kerror: [m[K‘[01m[Khardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::write()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   28 |   hardware_interface::return_type [01;31m[Kwrite[m[K() override;
+      |                                   [01;31m[K^~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:8:58:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator!=[m[K’ (operand types are ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn[m[K’ and ‘[01m[Khardware_interface::return_type[m[K’)
+    8 |   if ([32m[Khardware_interface::SystemInterface::on_init(info)[m[K [01;31m[K!=[m[K [34m[Khardware_interface::return_type::OK[m[K) {
+      |       [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                   [32m[K|[m[K                                          [34m[K|[m[K
+      |                                                   [32m[K|[m[K                                          [34m[Khardware_interface::return_type[m[K
+      |                                                   [32m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn[m[K
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:8:58:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Koperator!=(hardware_interface::return_type, hardware_interface::return_type)[m[K’ (built-in)
+    8 |   if ([01;36m[Khardware_interface::SystemInterface::on_init(info) != hardware_interface::return_type::OK[m[K) {
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:8:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn[m[K’ to ‘[01m[Khardware_interface::return_type[m[K’
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:8:58:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Koperator!=(rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn, rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn)[m[K’ (built-in)
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:8:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Khardware_interface::return_type[m[K’ to ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn[m[K’
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:15:104:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   15 | return_type RmdMotorHardwareInterface::on_configure([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+      |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:20:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   20 | :return_type RmdMotorHardwareInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+      |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:25:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   25 | eturn_type RmdMotorHardwareInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+      |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:30:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   30 | ::return_type RmdMotorHardwareInterface::on_cleanup([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+      |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_shutdown(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:35:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   35 | :return_type RmdMotorHardwareInterface::on_shutdown([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+      |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type rmd_motor_hardware::RmdMotorHardwareInterface::on_error(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:40:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   40 | ce::return_type RmdMotorHardwareInterface::on_error([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+      |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:2[m[K:
+/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = rmd_motor_hardware::RmdMotorHardwareInterface; B = hardware_interface::SystemInterface][m[K’:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Krmd_motor_hardware::RmdMotorHardwareInterface[m[K’
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:9:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Krmd_motor_hardware::RmdMotorHardwareInterface[m[K’:
+    9 | class [01;36m[KRmdMotorHardwareInterface[m[K : public hardware_interface::SystemInterface {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/include/rmd_motor_hardware/rmd_motor_hardware_interface.hpp:4[m[K,
+                 from [01m[K/home/ubuntu/ros2_ws4/src/rmd_motor_hardware/src/rmd_motor_hardware_interface.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:175:23:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+  175 |   virtual return_type [01;36m[Kread[m[K(const rclcpp::Time & time, const rclcpp::Duration & period) = 0;
+      |                       [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:186:23:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+  186 |   virtual return_type [01;36m[Kwrite[m[K(const rclcpp::Time & time, const rclcpp::Duration & period) = 0;
+      |                       [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/rmd_motor_hardware.dir/build.make:76: CMakeFiles/rmd_motor_hardware.dir/src/rmd_motor_hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rmd_motor_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
